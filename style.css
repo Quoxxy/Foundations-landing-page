@@ -1,0 +1,183 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+header {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 150px;
+  flex-wrap: wrap;
+  min-height: 50px;
+}
+
+.headerlinks {
+  display: flex;
+  justify-content: flex-end;
+  gap: 24px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero {
+  padding: 100px 150px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1f2937;
+  height: 200px;
+  min-width: 0;
+}
+
+.herotext {
+  max-width: 500px;
+}
+
+.heroimg {
+  background-color: #E5E7EB;
+  height: 200px;
+  width: 400px;
+  margin-left: 50px;
+}
+
+.headerlink,.hero {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.textlogo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+
+button {
+  background-color: #3882F6;
+  border-radius: 8px;
+  padding: 6px 15px;
+  margin: 4px 2px;
+  color: #F9FAF8;
+  font-weight: 700;
+  border-color: white;
+}
+
+.herobutton {
+  border: none;
+}
+
+.top {
+  display: flex;
+  flex:  1;
+  justify-content: center;
+  text-align: center;
+  gap: 52px;
+  min-width: 0;
+  padding: 20px;
+  height: 200px; 
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: bolder;
+  color: #1f2937;
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  max-width: 200px;
+}
+
+.infopic {
+  width: 100px;
+  height: 100px;
+  border-color: #1f2937;
+  background-color: #1f2937;
+  border-radius: 8px;
+}
+
+.middle {
+  background-color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  padding: 100px 400px;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1f2937;
+}
+
+.signature {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.bottom {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  background-color: #3882F6;
+  border-radius: 3px;
+  height: 70px;
+  width: 500px;
+  margin: 10px;
+  padding: 10px 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.boxtitle,.boxp {
+  color: white;
+  margin: 0;
+}
+
+.boxtitle {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.boxp {
+  font-size: 10px;
+  max-width: 400px;
+}
+
+.boxbutton {
+  align-self: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  font-size: 10px;
+  color: white;
+  min-height: 50px;
+}
